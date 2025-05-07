@@ -1,0 +1,66 @@
+html{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+header{
+
+margin-top: 40px;
+
+
+}
+body{
+background-color: rgb(35, 31, 32);
+ 
+}
+footer{
+background-color:rgb(250, 250, 250);
+
+}
+
+
+@media (max-width:600px){
+html,body{
+    background-color: blueviolet
+    ;
+}
+
+
+
+}
+
+.tarjeta{
+background-color: tomato;
+margin-left: 20px;
+margin-right: 20px;
+height: 100px;
+color: rgb(250, 250, 250);
+text-align: center;
+font-size: 50px;
+}
+
+.seccion{
+    margin-left: 20px;
+background-color: aqua;
+
+}
+
+
+
+.portada img{
+max-width: 100%;
+mask-image: linear-gradient(black 50%, transparent);
+
+}
+.portada h1 {
+font-size: 70px;
+color: rgb(250, 250, 250);
+position: absolute;
+margin-left: 20px;
+transform: translate(50% 50%);
+    top: 30%
+    
+}
+
